@@ -1,0 +1,134 @@
+body {
+    background-image: url('img.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: #f8f9fa; /* Fallback color */
+}
+
+.table-container {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.btn-primary {
+    margin-top: 15px;
+}
+
+
+.navbar {
+    background-color: #6c757d;
+    margin-top: 1px;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Custom width for each column */
+.col-no {
+    width: 5%;   /* Narrow column for number */
+}
+
+.col-title {
+    width: 20%;  /* Column for task title */
+}
+
+.col-mata-pelajaran {
+    width: 15%;  /* Column for mata pelajaran */
+}
+
+.col-desc {
+    width: 30%;  /* Wider column for description */
+}
+
+.col-deadline {
+    width: 20%;  /* Column for date and time */
+}
+
+.col-action {
+    width: 10%;  /* Column for actions */
+}
+
+.table th, .table td {
+    border: none;
+    padding: 10px 15px;
+}
+
+.table th {
+    background-color: #6c757d;
+    color: white;
+}
+
+.table td {
+    background-color: #f8f9fa;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #6c757d;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar-header {
+    margin-bottom: 20px;
+}
+
+.sidebar-header h5 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+}
+
+.list-group-item:hover {
+    background-color: #4f5d64;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-solid {
+    margin-right: 10px;
+}
+
+/* Main content */
+.main-content {
+    margin-top: 0px;
+    margin-left: 250px;
+    padding: 20px;
+}
+.table td {
+background-color: rgba(248, 249, 250, 0.8); /* Warna putih abu-abu dengan sedikit transparansi */
+}
+
+.table th {
+    background-color: rgba(108, 117, 125, 0.9); /* Warna abu-abu gelap dengan sedikit transparansi */
+}
